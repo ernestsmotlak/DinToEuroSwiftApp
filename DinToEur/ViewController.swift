@@ -18,9 +18,9 @@ class ViewController: UIViewController {
             return
         }
         
-        let outputValue = firstValue / 117.68
+        let outputValue = firstValue / 117.68 + 0.01
         
-        let formattedOutput = String(format: "%.3f", outputValue)
+        let formattedOutput = String(format: "%.2f", outputValue)
         
         label1.text = "\(formattedOutput) €"
         
